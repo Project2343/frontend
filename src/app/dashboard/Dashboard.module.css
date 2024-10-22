@@ -1,0 +1,76 @@
+.dashboardContainer {
+    max-width: 600px; /* Limit the width of the dashboard */
+    margin: 40px auto; /* Center the dashboard on the page */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #ffffff; /* White background for the dashboard */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .dashboardContainer form { /* Use a local class in the selector */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+  }
+  
+  .dashboardContainer input, 
+  .dashboardContainer textarea { /* Use a local class in the selector */
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #e0e0e0; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for inputs */
+  }
+  
+  .dashboardContainer input:focus, 
+  .dashboardContainer textarea:focus { /* Use a local class in the selector */
+    border-color: #0070f3; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .dashboardContainer textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px; /* Minimum height for textarea */
+  }
+  
+  .dashboardContainer button { /* Use a local class in the selector */
+    padding: 10px; /* Padding inside button */
+    background-color: #0070f3; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .dashboardContainer button:hover { /* Use a local class in the selector */
+    background-color: #005bb5; /* Darker blue on hover */
+  }
+  
+  .logoutButton {
+    padding: 0.75rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem; /* Add space below logout button */
+  }
+  
+  .logoutButton:hover {
+    background-color: #cc0000;
+  }
+  
+  .dashboardContainer {
+    padding: 20px;
+  }
+  
+  .logoutButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  

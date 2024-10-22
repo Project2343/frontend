@@ -1,0 +1,128 @@
+.productsContainer {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 40px auto; /* Center the container */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  .productCard {
+    border: 1px solid #e0e0e0; /* Light border for each product card */
+    border-radius: 5px; /* Rounded corners for product cards */
+    padding: 15px; /* Padding inside product cards */
+    margin-bottom: 20px; /* Space between product cards */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow on hover */
+    
+  }
+  
+  .productCard:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  .productName {
+    font-size: 1.5em; /* Larger font size for product names */
+    margin: 0 0 10px; /* Space below the product name */
+  }
+  
+  .productDescription {
+    color: #555; /* Dark gray color for product description */
+    margin: 0 0 10px; /* Space below the description */
+  }
+  
+  .productPrice {
+    font-weight: bold; /* Bold font for the price */
+    color: #0070f3; /* Blue color for the price */
+  }
+  /* Products.module.css */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    border: 2px solid #0070f3;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .productCard {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productName {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .productDescription {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .productPrice {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .addToCartButton {
+    padding: 10px 15px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .logoutButton {
+    background-color: #ff4757; /* Change to your desired color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Spacing between button and input */
+  }
+  
+  .logoutButton:hover {
+    background-color: #e84118; /* Darker shade on hover */
+  }
+  
+  .container {
+  padding: 20px;
+}
+
+.productsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productItem {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+}
+
+  
